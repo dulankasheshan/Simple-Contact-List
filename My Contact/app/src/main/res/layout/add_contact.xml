@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:background="#5B1F65"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/addContactTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Add Contact" />
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Name"
+        android:padding="16dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/addContact"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Contact Number"
+        android:padding="16dp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/addAddress"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Address"
+        android:padding="16dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/addEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Email Address"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/saveContactBtn"
+        android:layout_width="100dp"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Save" />
+</LinearLayout>
